@@ -1,0 +1,119 @@
+.inline{
+    display: inline-block;
+}
+
+hr.rounded {
+  border-top: 3px solid #000;
+  /* border-radius: 5px; */
+}
+
+hr.dotted_left{
+    border-top: 4px dotted #000;
+    float: left;
+}
+
+hr.dotted_right{
+    border-top: 4px dotted #000;
+    float: right;
+    position: relative;
+    top: -42;
+}
+
+hr.dotted_right_2{
+    border-top: 4px dotted #000;
+    float: right;
+    position: relative;
+    top: -49;
+}
+
+.card_right {
+  /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%;
+    position: relative;
+    left: 75%;
+    top: -20;
+}
+
+.card_left {
+  /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%;
+    position: relative;
+    top: -20;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.inner_container {
+    padding: 2px 16px;
+    font-size: 10px;
+}
+
+.increase-in-font{
+    font-size: 25;
+}
+.space{
+    padding-left: 200;
+}
+.space_1{
+    padding-top: 10;
+}
+.space_details{
+    padding-left: 250;
+}
+
+.space_details_1{
+    padding-left: 320;
+}
+
+.space_left{
+    padding-left: 225;
+}
+
+.Float_right{
+    float: right;
+    font-size: 10;
+    position: relative;
+    top: -20;
+}
+
+.Float_left{
+    float: left;
+    font-size: 10;
+    position: relative;
+    top: -30;
+    left: 17%;
+}
+
+.date_in_margin{
+    position: relative;
+    top: -5;
+}
+
+.date_in_margin_1{
+    position: relative;
+    top: -15;
+}
+
+.button_class{
+    position: relative;
+    top: 25;
+}
+
+.space_1{
+    position: relative;
+    right: -70;
+}
+
+.position{
+    position: relative;
+    right: 110;
+    
+}
